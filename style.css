@@ -1,0 +1,136 @@
+
+*{
+    @font-face {
+        font-family: montserrat;
+        src: url(./font/Montserrat-Medium.ttf);
+    }
+
+    @font-face {
+        font-family: montserratbold;
+        src: url(./font/Montserrat-Bold.ttf);
+    }
+    box-sizing: border-box;
+    margin: auto;
+    padding: 0;
+}
+body{
+    background-image: url(./back1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100vh;
+    height: 100vh;
+}
+
+.title1{
+    margin: 40px;
+    padding: 40px;
+    left: 50%;
+    font-size: 40px;
+    font-family: montserrat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.sortel{
+    width: 700px;
+    height: 400px;
+    /* background-color: aliceblue; */
+    padding: 20px;
+    border: 2px solid #fff;
+    border-radius: 40px;
+    box-shadow: 3px 3px 3px #777;
+}
+
+#t2{
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: montserrat;
+    font-weight: bold;
+}
+
+#r{
+    background-color: #f8f9fa;
+    font-family: montserrat;
+    width: 120px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    
+}
+
+#r:hover{
+    color: aliceblue;
+    background-color: #5e60ce;
+    font-weight: bold;
+
+}
+
+#d{
+    margin: 40px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: montserratbold;
+    font-weight: bold;
+}
+
+.form1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    margin: 15px;
+    padding: 5px;
+
+}
+
+#add{
+    padding: auto;
+    margin: auto;
+    font-family: montserrat;
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 25px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+}
+
+#adic{
+    background-color: #f8f9fa;
+    font-family: montserrat;
+    font-weight: bold;
+    width: 150px;
+    height: 40px;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+#adic:hover{
+    background-color: #5e60ce;
+    font-weight: bold;
+    color: aliceblue;
+
+
+}
+
